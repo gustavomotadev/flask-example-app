@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{nome}}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='estilo.css')}}">
+</head>
+<body>
+    <h1>{{nome}}</h1>
+    <p>{{descricao}}</p>
+    <div><img class="foto" src="{{url_imagem}}"></div>
+    <div><a href="{{url_for('mostrar_cardapio')}}"><img class="seta" src="{{url_for('static', filename='seta.png')}}"></a></div>
+</body>
+</html>

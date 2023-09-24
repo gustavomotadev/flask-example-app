@@ -72,3 +72,19 @@ p {
     background-color: #fff;
     border-radius: 5px;
 }
+
+.numero-grande {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.centralizar-tudo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,23 @@
+{
+    "pizza": 
+    {
+        "nome": "Pizza",
+        "descricao": "Uma deliciosa pizza de pepperoni.",
+        "codigo": "pizza",
+        "url_imagem": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1"
+    },
+    "hamburguer": 
+    {
+        "nome": "Hambúrguer",
+        "descricao": "Um hambúrguer suculento com queijo e bacon.",
+        "codigo": "hamburguer",
+        "url_imagem": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1"
+    },
+    "sorvete":
+    {
+        "nome": "Sorvete",
+        "descricao": "Sorvete de baunilha com calda de caramelo.",
+        "codigo": "sorvete",
+        "url_imagem": "https://images.pexels.com/photos/6025810/pexels-photo-6025810.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=1"
+    }
+}

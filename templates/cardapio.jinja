@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio</title>
-    <link rel="stylesheet" href="/static/estilo.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='estilo.css')}}">
 </head>
 <body>
     <h1>Cardápio</h1>
     <ul class="produtos">
-        <li><a href="/cardapio/pizza">Pizza</a></li>
-        <li><a href="/cardapio/hamburguer">Hambúrguer</a></li>
+        {% for alimento in banco.values() %}
+            <li><a href="{{url_for('mostrar_alimento', alimento=alimento.codigo)}}">{{alimento.nome}}</a></li>
+        {% endfor %}
     </ul>
 </body>
 </html>
